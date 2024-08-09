@@ -1,0 +1,32 @@
+
+
+input[type="text"] {
+    width: 250px;
+    height: 30px; 
+    margin-bottom: 20px; 
+    padding: 10px; 
+    box-sizing: border-box; 
+    border-color: black;
+   
+  display:flexbox
+
+}
+
+button{
+    width: 100px;
+    height: 30px;
+    color:rgb(255, 255, 255);
+    background-color:khaki;
+}
+textarea{
+
+    border-color: black;
+}
+
+
+
+marquee{
+    border: black 2px solid;
+}
+
+

@@ -1,0 +1,318 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Montserrat", sans-serif;
+    background-color: black;
+    color: white;
+    overflow: hidden;
+
+}
+
+.main {
+    display: flex;
+    height: 90vh;
+}
+
+.sidebar {
+    background-color: black;
+    width: 350px;
+    border-radius: 15px;
+}
+
+.main-content {
+    background-color: #121212;
+    width: 1070px;
+    margin-left: 1px;
+    border-radius: 5px;
+    overflow: auto;
+    margin-top: 8px;
+    padding: 0 1rem 0 1rem;
+}
+
+.music-player {
+    background-color: black;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 80px;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar {
+    background-color: #121212;
+    border-radius: 5px;
+    margin: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 110px;
+    padding: 0.5 rem 0.75rem;
+
+}
+
+.nav-option {
+    line-height: 40px;
+    opacity: 0.7;
+    padding: 8px;
+}
+
+.nav-option:hover {
+    opacity: 1;
+}
+
+.nav-option i {
+    font-size: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.nav-option a {
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.library {
+    background-color: #121212;
+    border-radius: 5px;
+    margin: 8px;
+    height: 75.5%;
+    padding: 8px;
+
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lib-option img {
+    height: 20px;
+    cursor: pointer;
+}
+
+.icons {
+    font-size: 20px;
+    opacity: 0.7;
+    cursor: pointer;
+
+    display: flex;
+
+}
+
+.icons:hover {
+    opacity: 4;
+}
+
+.icons i {
+    margin-right: 15px;
+}
+
+.box {
+    background-color: #292626;
+    border-radius: 5px;
+    height: 100px;
+    padding: 20px;
+    margin: 4px;
+}
+
+.p1 {
+    font-size: 1rem;
+    margin-top: -5px;
+    font-weight: 700;
+}
+
+.p2 {
+    opacity: 0.9;
+    margin-top: 10px;
+}
+
+.badge {
+    background-color: white;
+    border-radius: 100px;
+    border: none;
+    padding: 0.25rem 1rem;
+    font-weight: 750;
+    margin-top: 5px;
+    height: 2rem;
+    cursor: pointer;
+}
+
+.boxes {
+    margin-top: 30px;
+    height: 120px;
+}
+
+.sticky-nav {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #343232;
+    border-radius: 8px;
+    z-index: 10;
+}
+
+.usman img {
+    height: 25px;
+}
+
+.omar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.omar button {
+    margin: 5px;
+}
+
+.omar i {
+    margin: 8px;
+
+}
+
+.mam {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.kom {
+    background-color: black;
+    color: white;
+    height: 37px;
+
+}
+
+.card {
+    background-color: #292626;
+    width: 170px;
+    border-radius: 8px;
+    padding: 10px;
+    height: 290px;
+    margin: 5px;
+}
+
+.cards-container {
+    display: flex;
+
+}
+
+.per {
+    width: 100%;
+    border-radius: 8px;
+
+}
+
+.card-title {
+    font-weight: 700;
+}
+
+.card-info {
+    opacity: 0.9;
+    font-size: 15px;
+
+}
+
+.footer {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.line {
+    width: 90%;
+    height: 60%;
+    border-top: 1px solid white;
+    opacity: 0.5;
+}
+
+.album img {
+    width: 60px;
+    height: 50px;
+    margin-left: 10px;
+    margin-top: 4px;
+    border-radius: 10px;
+}
+
+.album {
+    display: flex;
+    width: 25%;
+
+}
+
+.album p {
+    margin-top: 8px;
+    margin-left: 10px;
+}
+
+.album h6 {
+    margin-top: 35px;
+    margin-left: -157px;
+}
+
+.plus {
+    margin-left: 100px;
+    margin-top: 26px;
+    cursor: pointer;
+}
+
+.music-player {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.player-controls {
+    width: 50%;
+}
+
+.controls{
+    width: 25%;
+}
+
+.player-control-icons {
+    height: 20px;
+    margin-left: 30px;
+    align-items: center;
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.player-control-icons:hover {
+    opacity: 1;
+}
+
+.progress-bar {
+    width: 300px;
+    margin-left: 10px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+span {
+    margin-left: -60px;
+    cursor: pointer;
+}
+
+.tot-time {
+    margin-left: 10px;
+    cursor: pointer;
+}
+.control minus{
+    display: flex;
+    margin-top: -100%;
+}
+.minus{
+    margin-right: 10px;
+}
